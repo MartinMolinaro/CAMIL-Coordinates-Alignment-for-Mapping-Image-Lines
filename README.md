@@ -1,7 +1,14 @@
 # CAMIL-Coordinates-Alignment-for-Mapping-Image-Lines
 CAMIL (Coordinates Alignment for Mapping Image Lines) is an algorithm that extracts the 2D coordinates of open curves and lines present in an image.
 
-This algorithm outperforms current pixel ordering/interpolation methods that do not perform well if there are free (that do not have a particular horizontal or vertical orientation) curves in the images.  
+This algorithm outperforms current pixel ordering/interpolation methods that do not perform well if there are free (that do not have a particular horizontal or vertical orientation) curves in the images. 
+
+#### Use
+In the colab script you'll find more detailed informations and example of applications.
+
+To use the CAMIL algorithm you only need the static **`class CAMIL`** and then call the function **`CAMIL.Map_image(image)`** on your image. 
+
+Plotting functions, as well other common interpolation/pixel-ordering methods functions are provided too.
 
 ### Plot the comparisons of interpolation methods results
 (from worst to best)
